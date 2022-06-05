@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form by Tanzim Amin</title>
+  </head>
+<body>
+
+
+<h2>Registration Form</h2>
+
+<!-- Name info Field -->
+<form action="/action_page.php" style="border:solid 2px red; padding: 15px;">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" value="Tanzim"><br><br>
+   <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" value="Amin"><br><br>
+  
+<!-- Address Field -->
+<textarea name="message" rows="5" cols="30">Enter you address here.</textarea>
+  
+<!-- Gender Field -->
+<p>Please select your Gender:</p>
+  <input type="radio" id="male" name="male" value="HTML">
+  	<label for="male">Male</label><br>
+    
+    
+  <input type="radio" id="female" name="female" value="CSS">
+  	<label for="female">Female</label><br>
+    
+    
+  <input type="radio" id="nonbinary" name="nonbinary" value="JavaScript">
+  	<label for="nonbinary">Non-Binary</label>
+  
+<!-- Cities Field -->
+<p>Check the cities you've visited:</p>
+  
+  <input type="checkbox" id="SanFran" name="SanFran">
+  	<label for="SanFran">San Francisco</label>
+  	<br>
+    
+  <input type="checkbox" id="LosAng" name="LosAng">
+  	<label for="LosAng">Los Angeles</label>
+  	<br>
+    
+  <input type="checkbox" id="LasV" name="LasV">
+  	<label for="LasV">Las Vegas</label>
+    <br>
+    
+  <input type="checkbox" id="NY" name="NY">
+  	<label for="NY">New York</label>
+  	<br>
+  
+  <input type="checkbox" id="Seattle" name="Seattle">
+  	<label for="Seattle">Seattle</label>
+  	<br>
+  
+  <input type="checkbox" id="Wash" name="Wash">
+  	<label for="Wash">Washington</label>
+  	<br>
+    
+  <input type="checkbox" id="Chic" name="Chic">
+  	<label for="Chic">Chicago</label>
+  	<br>
+  
+  <input type="checkbox" id="Miami" name="Miami">
+  	<label for="Miami">Miami</label>
+  	<br><br>
+  
+    
+<!-- Favorite Sports Team Field -->
+  <label for="browser">Choose your favorite sports team in Cali:</label>
+  	<input list="browsers" name="browser" id="browser">
+  	<datalist id="browsers">
+    	<option value="49ers">
+    	<option value="SF Giants">
+    	<option value="Golden State Warriors">
+    	<option value="Los Angeles Lakers">
+    	<option value="San Jose Sharks">
+  	</datalist><br><br>
+  
+<!-- Favorite Musicians Field -->
+  <label for="browser">Choose your favorite musicians:</label>
+  	<input list="musics" name="music" id="music">
+  	<datalist id="musics">
+    	<option value="Justin Bieber">
+    	<option value="Eminem">
+    	<option value="2pac">
+    	<option value="J Cole">
+  	</datalist><br><br>
+  
+<!-- Favorite Day of the week Field -->
+  <label for="days">Favorite day of the week:</label>
+  	<select name="days" id="days">
+    	<option value="monday">Monday</option>
+    	<option value="tuesday">Tuesday</option>
+    	<option value="Wed">Wednesday</option>
+    	<option value="thursday">Thursday</option>
+    	<option value="friday">Friday</option>
+    	<option value="saturday">Saturday</option>
+    	<option value="sunday">Sunday</option>
+  	</select>
+  	<br><br>
+  
+<!-- Birth date Field -->
+  <label for="birthday">Birthday:</label>
+  	<input type="date" id="birthday" name="birthday"><br><br>
+  
+<!-- Favorite Color Field -->
+  <label for="colorpicker">Favorite Color:</label>
+   	<input type="color" id="colorpicker" value="#0000ff"><br><br>
+  
+<!-- Credit Card Info Field -->
+  <label for="quantity">Last 4 digits of your Credit Card #:</label>
+  	<input type="number" id="quantity" name="quantity" min="0000" max="9999">
+ 	<br><br>
+  
+
+<!-- Password Field -->
+  <label for="pwd">Password (Save Info):</label><br>
+  	<input type="password" id="pwd" name="pwd"><br><br> 
+  
+  
+<!-- End of Form -->
+   <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form> 
+
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
